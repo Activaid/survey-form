@@ -11,99 +11,97 @@
 </head>
 
 <body>
+    <div class="page">
 
-    <header class="header">
-        <h1 id="title">Изучение познавательных интересов школьников</h1>
-        <p id="description">Ответьте на все вопросы, это займет 1-2мин</p>
-    </header>
-    <main id="main">
+        <header class="header">
+            <h1 id="title">Изучение познавательных интересов школьников</h1>
+            <p id="description">Ответьте на все вопросы, это займет 1-2мин</p>
+        </header>
+        <main id="main">
 
-        <form action="#" id="survey-form">
-            <div class="about">
-                <label for="name" id="name-label">Имя</label>
-                <input type="text" id="name" class="fields" minlength="2" required placeholder="Name">
-                <label for="email" id="email-label">Почта</label>
-                <input type="email" id="email" class="fields" required placeholder="user@domain.com">
-                <label for="number" id="number-label">Возраст</label>
-                <input type="number" id="number" class="fields" min="7" max="18" required placeholder="Age">
-            </div>
+            <form action="#" id="survey-form">
+                <div class="about">
+                    <label for="name" id="name-label">Имя</label>
+                    <input type="text" id="name" class="fields" minlength="2" required placeholder="Name">
+                    <label for="email" id="email-label">Почта</label>
+                    <input type="email" id="email" class="fields" required placeholder="user@domain.com">
+                    <label for="number" id="number-label">Возраст</label>
+                    <input type="number" id="number" class="fields" min="7" max="18" required placeholder="Age">
+                </div>
 
-            <div class="radio-title">
-                <p class="questions">Любите ли Вы смотреть телевизор?</p>
-                <label for="radio1">Да
-                    <input type="radio" id="radio1" name="radiobtn" value="yes">
-                </label>
-                <label for="radio2">Нет
-                    <input type="radio" id="radio2" name="radiobtn" value="no">
-                </label>
-            </div>
+                <div class="radio-title">
+                    <p class="questions">Любите ли Вы смотреть телевизор?</p>
+                    <label for="radio1">Да
+                        <input type="radio" id="radio1" name="radiobtn" value="yes">
+                    </label>
+                    <label for="radio2">Нет
+                        <input type="radio" id="radio2" name="radiobtn" value="no">
+                    </label>
+                </div>
 
+                <div>
+                    <h2 class="checkbox-title">Что Вы предпочитаете смотреть по телевизору:</h2>
+                    <input type="checkbox" id="checkbox1" class="checkbox" name="checkbox" value="films">
+                    <label for="checkbox1">Фильмы</label>
 
+                    <input type="checkbox" id="checkbox2" class="checkbox" name="checkbox" value="mults">
+                    <label for="checkbox2">Мультики</label>
 
+                    <input type="checkbox" id="checkbox3" name="checkbox" value="serials">
+                    <label for="checkbox3">Сериалы</label>
 
+                    <input type="checkbox" id="checkbox4" name="checkbox" value="informative">
+                    <label for="checkbox4">Познавательные передачи</label>
 
-            <div>
-                <h2 class="checkbox-title">Что Вы предпочитаете смотреть по телевизору:</h2>
-                <input type="checkbox" id="checkbox1" class="checkbox" name="checkbox" value="films">
-                <label for="checkbox1">Фильмы</label>
+                    <input type="checkbox" id="checkbox5" name="checkbox" value="documentary">
+                    <label for="checkbox5">Документальные фильмы</label>
 
-                <input type="checkbox" id="checkbox2" class="checkbox" name="checkbox" value="mults">
-                <label for="checkbox2">Мультики</label>
+                    <input type="checkbox" id="checkbox6" name="checkbox" value="sport">
+                    <label for="checkbox6">Спортивные передачи</label>
 
-                <input type="checkbox" id="checkbox3" name="checkbox" value="serials">
-                <label for="checkbox3">Сериалы</label>
+                    <input type="checkbox" id="checkbox7" name="checkbox" value="music">
+                    <label for="checkbox7">Музыкальные клипы</label>
+                </div>
 
-                <input type="checkbox" id="checkbox4" name="checkbox" value="informative">
-                <label for="checkbox4">Познавательные передачи</label>
+                <label class="dropdown-title" for="dropdown">Любите играть в компьютерные игры?</label>
+                <div class="dropdown-block">
+                    <select name="dropdown" id="dropdown" class="fields">
+                        <option value="">Да</option>
+                        <option value="">Нет</option>
+                    </select>
+                </div>
 
-                <input type="checkbox" id="checkbox5" name="checkbox" value="documentary">
-                <label for="checkbox5">Документальные фильмы</label>
+                <div>
+                    <h2 class="checkbox-title">Какие игры Вам нравяться?</h2>
+                    <input type="checkbox" id="checkbox1" name="checkbox" value="shooters">
+                    <label for="checkbox1">Шутеры</label>
 
-                <input type="checkbox" id="checkbox6" name="checkbox" value="sport">
-                <label for="checkbox6">Спортивные передачи</label>
+                    <input type="checkbox" id="checkbox2" name="checkbox" value="strategy">
+                    <label for="checkbox2">Стратегии</label>
 
-                <input type="checkbox" id="checkbox7" name="checkbox" value="music">
-                <label for="checkbox7">Музыкальные клипы</label>
-            </div>
+                    <input type="checkbox" id="checkbox3" name="checkbox" value="race">
+                    <label for="checkbox3">Гонки</label>
 
-            <label class="dropdown-title" for="dropdown">Любите играть в компьютерные игры?</label>
-            <div class="dropdown-block">
-                <select name="dropdown" id="dropdown" class="fields">
-                    <option value="">Да</option>
-                    <option value="">Нет</option>
-                </select>
-            </div>
+                    <input type="checkbox" id="checkbox4" name="checkbox" value="card">
+                    <label for="checkbox4">Карточные</label>
 
-            <div>
-                <h2 class="checkbox-title">Какие игры Вам нравяться?</h2>
-                <input type="checkbox" id="checkbox1" name="checkbox" value="shooters">
-                <label for="checkbox1">Шутеры</label>
+                    <input type="checkbox" id="checkbox5" name="checkbox" value="rpg">
+                    <label for="checkbox5">Ролевые</label>
+                </div>
 
-                <input type="checkbox" id="checkbox2" name="checkbox" value="strategy">
-                <label for="checkbox2">Стратегии</label>
+                <div>
+                    <h2>Назовите, пожалуйста, три последние книги, которые Вы прочитали?</h2>
+                    <textarea name="books" id="book" cols="40" rows="10" placeholder="Я прочитал:"></textarea>
+                </div>
 
-                <input type="checkbox" id="checkbox3" name="checkbox" value="race">
-                <label for="checkbox3">Гонки</label>
+                <button id="submit">Отправить</button>
 
-                <input type="checkbox" id="checkbox4" name="checkbox" value="card">
-                <label for="checkbox4">Карточные</label>
+            </form>
 
-                <input type="checkbox" id="checkbox5" name="checkbox" value="rpg">
-                <label for="checkbox5">Ролевые</label>
-            </div>
-
-            <div>
-                <h2>Назовите, пожалуйста, три последние книги, которые Вы прочитали?</h2>
-                <textarea name="books" id="book" cols="40" rows="10" placeholder="Я прочитал:"></textarea>
-            </div>
-
-            <button id="submit">Отправить</button>
-
-        </form>
-
-    </main>
-    <footer class="footer"></footer>
-
+        </main>
+        <footer class="footer">
+        </footer>
+    </div>
 </body>
 
 </html>
