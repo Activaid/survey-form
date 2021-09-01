@@ -1,0 +1,104 @@
+.page {
+    padding: 0 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 20px;
+}
+
+#title {
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#description {
+    margin: 0;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+#info__field {    
+    margin: 0;
+}
+
+#name-label {
+    margin: 0;
+}
+
+#name {
+    border-radius: 5px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#email-label {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+#email {
+    border-radius: 5px;
+    height: 24px;
+    margin-bottom: 20px;   
+}
+
+#number-label {
+    margin: 0;
+}
+
+#number {
+    border-radius: 5px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+
+#submit {
+    border: none;
+	background: #404040;
+	color: #ffffff !important;
+	font-weight: 100;
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+    margin-bottom: 30px;
+}
+
+#submit:hover {
+    color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+}
+
+#book {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .page {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .page {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 435px) {
+    #title {
+        font-size: 22px;
+    }
+}
